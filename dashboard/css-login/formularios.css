@@ -1,0 +1,53 @@
+
+/* -- Input styles ---------------------------------- */
+.form-group {
+  position: relative;
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
+.form-control {
+  display: block;
+  height: 36px;
+  width: 100%; 
+  border: none;
+  border-radius: 0 !important;
+
+  font-size: 16px;
+  font-weight: 300;
+  padding: 0;
+  background-color: transparent;
+  box-shadow: none;
+  border-bottom: 1px solid #757575;
+}
+
+.form-control:focus {
+  border-color: #757575;
+  outline: none;
+  box-shadow: none;
+}
+
+/* -- label styles ---------------------------------- */
+label {
+  position: absolute;
+  top: -18px;
+  color: #999;
+  font-size: 12px;
+  font-weight: 300;
+  
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+
+.float-label {
+  left: 0;
+  top: 7px;
+  font-size: 16px;
+  pointer-events: none;
+}
+
+/* active state */
+.form-control:focus ~ .float-label, .form-control:valid ~ .float-label {
+  top: -18px;
+  font-size: 12px;
+}

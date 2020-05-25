@@ -1,0 +1,76 @@
+.flex-box-this{
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    display: -webkit-box ;
+    display: flex;
+    position: relative;
+}
+
+
+    .liner {
+        height: 2px;
+        background: #ddd;
+        position: absolute;
+        width: 70%;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: 35%;
+    }
+
+    .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+        color: #555555;
+        cursor: default;
+        border: 0;
+        border-bottom-color: transparent;
+    }
+
+    span.round-tabs {
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+        display: inline-block;
+        border-radius: 100px;
+        background: white;
+        font-size: 25px;
+
+        border: 2px solid #ddd;
+        color: #555555;
+    }
+
+    li.active span.round-tabs {
+        color: #5bc0de;
+        border: 2px solid #5bc0de;
+    }
+
+    span.round-tabs:hover {
+        color: #736e6e;
+        border: 2px solid #736e6e;
+    }
+
+    .nav-tabs > li {
+        margin-bottom: -6px;
+    }
+
+    .nav-tabs > li.active:after {
+        content: " ";
+        display: inline-block;
+        border: 12px solid transparent;
+        border-bottom-color: #5bc0de;
+    }
+
+    .nav-tabs > li a {
+        margin: 0 auto;
+        border-radius: 100%;
+        padding: 0;
+    }
+
+    @media ( max-width: 768px ) {
+        span.round-tabs {
+            font-size: 16px;
+            width: 50px;
+            height: 50px;
+            line-height: 50px;
+        }
+
+    }
