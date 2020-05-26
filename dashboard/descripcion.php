@@ -5,7 +5,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta http-equiv="X-UA-Compatible" content="ie=edge">
       <title>MC 2020</title>
-      <link rel="icon" href="ico/logo.ico">
+      <link rel="icon" href="ico/logo2.ico">
       <link rel="stylesheet" href="css-carousel/bootstrap.min.css">
       <link rel="stylesheet" href="css-carousel/descripcion.css">
   </head>
