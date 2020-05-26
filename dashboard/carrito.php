@@ -8,7 +8,9 @@
       <link rel="icon" href="ico/logo2.ico">
       <link rel="stylesheet" href="css-carousel/bootstrap.min.css">
       <link rel="stylesheet" href="css-carousel/carrito.css">
-      <script src="js-dashboard/leer-mas.js"></script>
+      <script src="js-dashboard/sweetalert.min.js"></script>
+      <link rel="stylesheet" href="css-dashboard/sweetalert.css">
+      
   </head>
   <body>
       <!--navegacion-->
@@ -123,7 +125,12 @@
                     <!--El BOTON DE FINALIZAR COMPRA-->
                     <div class="row">
                       <div class="col-md-8">
-                        <a href="#"><span class='btn btn-primary' style="font-size: 15px; background-color: #900c3f;">FINALIZAR COMPRA</span></a>
+                        <a href="#"><span class='btn btn-primary' style="font-size: 15px; background-color: #900c3f;" onclick="funcionAlerta()">FINALIZAR COMPRA</span></a>
+                          <script language="javascript">
+                                function funcionAlerta(){
+                                  swal("Buen Trabajo!", "Gracias por comprar!", "success");
+                                }
+                          </script>
                       </div>
                     </div>   
                 </div>   
@@ -210,6 +217,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="js-carousel/jquery.slim.min.js"></script>
     <script src="js-carousel/bootstrap.bundle.min.js"></script>
+    
     
     
   </body>
